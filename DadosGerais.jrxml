@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DadosGerais" pageWidth="555" pageHeight="100" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="ac190338-0973-4ac4-8619-82420c137ec1">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (5)"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w1" value="722"/>
+	<property name="com.jaspersoft.studio.property.dataset.dialog.DatasetDialog.sash.w2" value="264"/>
+	<queryString language="JSON">
+		<![CDATA[]]>
+	</queryString>
+	<field name="nomeProponenteOuSegurado" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.nomeProponenteOuSegurado"/>
+		<fieldDescription><![CDATA[dadosGerais.nomeProponenteOuSegurado]]></fieldDescription>
+	</field>
+	<field name="dataNascimentoProponente" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.dataNascimentoProponente"/>
+		<fieldDescription><![CDATA[dadosGerais.dataNascimentoProponente]]></fieldDescription>
+	</field>
+	<field name="cpfOuCnpjProponente" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.cpfOuCnpjProponente"/>
+		<fieldDescription><![CDATA[dadosGerais.cpfOuCnpjProponente]]></fieldDescription>
+	</field>
+	<field name="nomeCorretora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.nomeCorretora"/>
+		<fieldDescription><![CDATA[dadosGerais.nomeCorretora]]></fieldDescription>
+	</field>
+	<field name="susepCorretora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.susepCorretora"/>
+		<fieldDescription><![CDATA[dadosGerais.susepCorretora]]></fieldDescription>
+	</field>
+	<field name="telefoneCorretora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.telefoneCorretora"/>
+		<fieldDescription><![CDATA[dadosGerais.telefoneCorretora]]></fieldDescription>
+	</field>
+	<field name="emailCorretora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.emailCorretora"/>
+		<fieldDescription><![CDATA[dadosGerais.emailCorretora]]></fieldDescription>
+	</field>
+	<field name="tipoOperacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.tipoOperacao"/>
+		<fieldDescription><![CDATA[dadosGerais.tipoOperacao]]></fieldDescription>
+	</field>
+	<field name="dataInicio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.dataInicio"/>
+		<fieldDescription><![CDATA[dadosGerais.dataInicio]]></fieldDescription>
+	</field>
+	<field name="dataFim" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.dataFim"/>
+		<fieldDescription><![CDATA[dadosGerais.dataFim]]></fieldDescription>
+	</field>
+	<field name="bonusUnicoSeguro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.bonusUnicoSeguro"/>
+		<fieldDescription><![CDATA[dadosGerais.bonusUnicoSeguro]]></fieldDescription>
+	</field>
+	<field name="origemBonus" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.origemBonus"/>
+		<fieldDescription><![CDATA[dadosGerais.origemBonus]]></fieldDescription>
+	</field>
+	<field name="dadosGerais" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais"/>
+		<fieldDescription><![CDATA[dadosGerais]]></fieldDescription>
+	</field>
+	<field name="segmentoSeguro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.segmentoSeguro"/>
+		<fieldDescription><![CDATA[dadosGerais.segmentoSeguro]]></fieldDescription>
+	</field>
+	<field name="quantidadeDias" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.quantidadeDias"/>
+		<fieldDescription><![CDATA[dadosGerais.quantidadeDias]]></fieldDescription>
+	</field>
+	<field name="apoliceSeguro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.apoliceSeguro"/>
+		<fieldDescription><![CDATA[dadosGerais.apoliceSeguro]]></fieldDescription>
+	</field>
+	<field name="itemSeguro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.itemSeguro"/>
+		<fieldDescription><![CDATA[dadosGerais.itemSeguro]]></fieldDescription>
+	</field>
+	<field name="sucursalSeguro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.sucursalSeguro"/>
+		<fieldDescription><![CDATA[dadosGerais.sucursalSeguro]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="100" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="13" forecolor="#F0F2F8" backcolor="#F0F2F8" uuid="753eda97-ebc7-4868-8599-21e269cd433f">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="6" y="0" width="64" height="13" forecolor="#687384" backcolor="rgba(201, 114, 113, 0.0)" uuid="165e0dfc-db5c-41c1-9370-7d6d4d164c60"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DADOS GERAIS]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="13" width="353" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="2064968f-a9aa-4ebb-b1e2-f1b2b0014f72">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="6" y="13" width="44" height="10" uuid="467a6047-38c7-40a6-9290-26abe3c20e51"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Segurado(a)]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="353" y="13" width="107" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="192227ec-c94d-467d-9382-d28463c24902"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="359" y="13" width="45" height="10" uuid="1bc20514-73f8-43d8-bfdc-5aaa0e07e663"/>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Nascimento]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="460" y="13" width="95" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="a44fb5a2-b4db-460f-8a8a-4379f5f697e2"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="466" y="13" width="20" height="10" uuid="0acba0d6-538b-452c-a980-ade830a5a3d6"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[CPF]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="36" width="130" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="552e666e-7b78-443b-ba73-d9235d4e548b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="6" y="36" width="34" height="10" uuid="8f49df93-a133-4389-9c1e-dc0fc5ec95bc"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Corretor]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="130" y="36" width="49" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="92adb92b-c0ab-463f-a78a-98cfdee445a8"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="136" y="36" width="24" height="10" uuid="7f86b0bb-c7c0-413d-a949-09782279c6a8"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SUSEP]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="179" y="36" width="101" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="c6653cb2-a66b-42d8-88be-83e3aa560347"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="184" y="36" width="36" height="10" uuid="2f5bd0b9-8d8b-447f-a1d8-1aa11df67c2a"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Telefone]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="280" y="36" width="275" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="e9f71fc4-60f0-4c03-9db5-1ec69d4ba0ad"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="285" y="36" width="25" height="10" uuid="63092dc5-1acb-451b-b8e2-682f39d11184"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[E-mail]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="0" y="59" width="95" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="4ad7ea77-2c56-4723-a2eb-63aaefb2dc2c">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="6" y="60" width="54" height="9" uuid="5e1e67ef-f39f-4612-89f9-46bef9a0ec56"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tipo Operação]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="95" y="59" width="84" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="32320536-ff09-4c4a-849e-6a846b3bd87e"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<rectangle>
+				<reportElement x="179" y="59" width="41" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="c88b4a50-6ae4-47bc-a15c-e27d5a92a4e9"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="100" y="60" width="36" height="9" uuid="9cd48eab-8135-4c5c-9bef-0282311bf24a"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Segmento]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="184" y="59" width="36" height="10" uuid="6e9b4a6c-f0fb-42c3-bb83-a73ea6bc3d1b"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sucursal]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="220" y="59" width="50" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="0c30f957-dfcf-4d4d-a2e7-7b91af542a7f"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="225" y="59" width="36" height="10" uuid="58d8730f-ee64-42a8-857b-757428c89b24"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Apólice]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="270" y="59" width="30" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="f11fec39-099c-4fff-a2fa-e54057a8e93b"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="275" y="59" width="25" height="10" uuid="3a41551e-11c1-4228-b627-a8edce90d188"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Item]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="300" y="59" width="130" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="bae0334e-dd93-407f-9d85-d8ece5c17c46"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="305" y="59" width="35" height="10" uuid="9fa37ae3-7d10-4c1e-a2ef-a036cf8646a7"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Vigência]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="430" y="59" width="43" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="fbb8330b-befc-4c29-9fff-cd044dec19b6"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="435" y="59" width="25" height="10" uuid="dc213554-597d-47b1-8495-48c6723e97cc"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Bônus]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="473" y="59" width="82" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="7ef14c93-2e58-49a9-a8e2-b425215414c8"/>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="478" y="59" width="62" height="10" uuid="fbb3b5fb-af8f-4aad-9e60-40ecb34e6db2"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Origem do Bônus]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="90" width="554" height="9" uuid="8608fae2-a1d6-4e7f-b7bd-5fc8e6add3eb"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Modalidades de remuneração poderão se aplicar ao relacionamento entre a seguradora e o intermediário, conforme politicas internas.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="6" y="23" width="89" height="13" uuid="14a79503-2b3f-4f53-9b49-303a0551a297">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeProponenteOuSegurado}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="6" y="44" width="89" height="13" uuid="e7e92913-9dcd-468c-9210-1e4867b22d65">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeCorretora}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="136" y="45" width="33" height="13" uuid="5403286e-8188-4b1f-aa8c-74581d861c92">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{susepCorretora}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="181" y="45" width="63" height="13" uuid="af55ddcf-f1d6-447d-968a-a987bfc03c18">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{telefoneCorretora}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="285" y="45" width="239" height="13" uuid="0524a964-8bf7-4519-9964-2c9abd78a31b">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{emailCorretora}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="359" y="23" width="89" height="13" uuid="66b428ab-de31-4577-8fb0-4a4fb2bce196">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dataNascimentoProponente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="466" y="23" width="83" height="13" uuid="009fe623-b0a7-4855-b9c0-11f4620b6181">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cpfOuCnpjProponente}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="7" y="68" width="88" height="13" uuid="55df3f81-1b56-49a4-be1e-c589b0cb1025">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tipoOperacao}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="100" y="68" width="79" height="13" uuid="8bc4a547-cde0-418f-bc87-b56955df4f69">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{segmentoSeguro}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="305" y="69" width="125" height="13" uuid="356a1ba5-f704-4721-b255-222c7b872717">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dataInicio} + " " + "até" + " " + $F{dataFim} + " " +  $F{quantidadeDias}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="435" y="68" width="38" height="13" uuid="12e87aba-6fcc-4d4c-8140-851b504d906c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{bonusUnicoSeguro} ]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="185" y="68" width="36" height="13" uuid="ee06e8c1-ebbf-4288-a299-47e5981c9a7f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{sucursalSeguro} == null ? "-" : $F{sucursalSeguro})]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="225" y="68" width="45" height="13" uuid="dd77ea2d-594d-4cac-8aee-575f230ad108">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{apoliceSeguro} == null) ? "-" : $F{apoliceSeguro}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="275" y="69" width="25" height="13" uuid="e3279907-4dc8-4786-88fd-c9f3b38aa341">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{itemSeguro} == null ) ? "-" : $F{itemSeguro}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="478" y="69" width="38" height="13" uuid="29417b4c-1cf6-4f07-abc4-5b6abd74e916">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[ ($F{origemBonus} == null ) ? "-" : $F{origemBonus}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

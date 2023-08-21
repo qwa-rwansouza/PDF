@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DadosCoberturasServicos" pageWidth="555" pageHeight="215" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="cc2b0981-e437-485f-a337-19427216d436">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (5)"/>
+	<subDataset name="Dataset1" uuid="63ab8a2b-22e5-4d12-a64b-5a93d04ab862">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
+	<queryString language="JSON">
+		<![CDATA[]]>
+	</queryString>
+	<field name="coberturaServicos" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="coberturaServicos"/>
+		<fieldDescription><![CDATA[coberturaServicos]]></fieldDescription>
+	</field>
+	<field name="franquia" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="coberturaServicos.franquia"/>
+		<fieldDescription><![CDATA[coberturaServicos.franquia]]></fieldDescription>
+	</field>
+	<field name="nomeCobertura" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="coberturaServicos.nomeCobertura"/>
+		<fieldDescription><![CDATA[coberturaServicos.nomeCobertura]]></fieldDescription>
+	</field>
+	<field name="valorPremio" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="coberturaServicos.valorPremio"/>
+		<fieldDescription><![CDATA[coberturaServicos.valorPremio]]></fieldDescription>
+	</field>
+	<field name="percentualLMI" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="coberturaServicos.percentualLMI"/>
+		<fieldDescription><![CDATA[coberturaServicos.percentualLMI]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="33" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="13" forecolor="#F0F2F8" backcolor="#F0F2F8" uuid="bcd3605b-b369-4e05-a638-a4155ded7a4d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="6" y="0" width="114" height="13" forecolor="#687384" backcolor="rgba(201, 114, 113, 0.0)" uuid="4d5bd584-a757-4abd-94d4-20818370d318"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[COBERTURAS E SERVIÇOS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="16" width="40" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="28dc5134-70ad-4cf8-847a-30350252157a"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Descrição]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="32" width="555" height="1" uuid="41ac108c-1b7a-439d-9a53-c399ef331014"/>
+				<graphicElement>
+					<pen lineWidth="0.75" lineColor="#D9D9D9"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="190" y="16" width="100" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="118f6202-494f-4db2-9fc4-e9164e56e2a3"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Franquia]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="300" y="16" width="120" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="95116a43-786d-4fbf-a977-0dc2ed446e1e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[LMI (Indenização) - Valor de Mercado]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="480" y="16" width="70" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="3c03930f-df85-4491-8de6-b60a62aeb100"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Valor do prêmio]]></text>
+			</staticText>
+		</band>
+		<band height="44">
+			<line>
+				<reportElement x="0" y="16" width="555" height="1" uuid="3e35b9ea-e6ef-4565-be9d-f1860a083653"/>
+				<graphicElement>
+					<pen lineWidth="0.75" lineColor="#D9D9D9"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="200" y="2" width="100" height="13" uuid="707d8483-e441-41ac-b66f-1dd23da4c0ac">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["R$ 2.072,00 (Obrigatória)"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="300" y="2" width="100" height="13" uuid="0ec6fb40-514c-4427-a772-137761f19b68">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["100% da FIPE"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="480" y="2" width="70" height="13" uuid="f227b2c5-41a7-45e5-a0da-c67d5e381ab8">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["R$ 1.722,43"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="9" y="2" width="60" height="13" uuid="5179479a-e208-4333-9853-9d201993bd80">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Compreensiva"]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

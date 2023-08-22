@@ -101,14 +101,14 @@
 				<textFieldExpression><![CDATA[$F{nomeCobertura}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="200" y="2" width="100" height="13" uuid="9cc3dbbb-d70e-4df9-8263-d2c9130a9a8f">
+				<reportElement x="190" y="2" width="100" height="13" uuid="9cc3dbbb-d70e-4df9-8263-d2c9130a9a8f">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle">
+				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Roboto" size="7"/>
 				</textElement>
-				<textFieldExpression><![CDATA["R$ 2.072,00 (Obrigatória)"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{franquia}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="300" y="2" width="100" height="13" uuid="58c4f330-f0a8-4975-947c-b66bf579b0e6">
@@ -118,7 +118,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Roboto" size="7"/>
 				</textElement>
-				<textFieldExpression><![CDATA["100% da FIPE"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{percentualLMI}]]></textFieldExpression>
 			</textField>
 			<textField>
 				<reportElement x="480" y="2" width="70" height="13" uuid="464831c9-de5d-48eb-a1e8-39cfdf4011d7">
@@ -128,7 +128,7 @@
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Roboto" size="7"/>
 				</textElement>
-				<textFieldExpression><![CDATA["R$ 1.722,43"]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{valorPremio}]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>

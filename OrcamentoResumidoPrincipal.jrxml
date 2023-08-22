@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="OrcamentoResumidoPrincipal" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="10" uuid="3f620203-c087-480a-a350-c542973061f6">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (5)"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="JSON">
+		<![CDATA[]]>
+	</queryString>
+	<field name="dadosCabecalho" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosCabecalho"/>
+		<fieldDescription><![CDATA[dadosCabecalho]]></fieldDescription>
+	</field>
+	<field name="dataValidade" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosCabecalho.dataValidade"/>
+		<fieldDescription><![CDATA[dadosCabecalho.dataValidade]]></fieldDescription>
+	</field>
+	<field name="numeroDocumento" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosCabecalho.numeroDocumento"/>
+		<fieldDescription><![CDATA[dadosCabecalho.numeroDocumento]]></fieldDescription>
+	</field>
+	<field name="dataGeracao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosCabecalho.dataGeracao"/>
+		<fieldDescription><![CDATA[dadosCabecalho.dataGeracao]]></fieldDescription>
+	</field>
+	<field name="logoCobranding" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosCabecalho.logoCobranding"/>
+		<fieldDescription><![CDATA[dadosCabecalho.logoCobranding]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="81" splitType="Stretch">
+			<property name="com.jaspersoft.studio.layout"/>
+			<staticText>
+				<reportElement x="0" y="53" width="146" height="20" uuid="76a50f40-ec47-4540-934d-675f1307bf5b">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Roboto"/>
+				</textElement>
+				<text><![CDATA[CNPJ: 61.198.164.0001/60]]></text>
+			</staticText>
+			<image onErrorType="Icon">
+				<reportElement x="0" y="0" width="40" height="45" uuid="fc6ea849-ab63-4b9e-abac-e79a9c2b1ec0">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<imageExpression><![CDATA["/Assets/Logos Porto.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="182" y="0" width="190" height="17" uuid="5fe5ed62-97d0-43ea-a2b4-7ce344217239">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Orçamento de Seguro Auto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="182" y="17" width="190" height="15" uuid="5fb8cb64-3b4b-4bbc-8720-67a4d1376441">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Tradicional e Residência Fácil]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="227" y="45" width="50" height="15" uuid="13316e2a-e513-4958-b864-cbbb1c033c7c"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Orçamento:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="239" y="60" width="42" height="15" uuid="521464ca-3f42-4caa-b952-64b9c48a542a"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Roboto" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Válido ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="406" y="26" width="70" height="15" uuid="253029eb-aa8d-417e-b844-8deda80a5540"/>
+				<textElement>
+					<font fontName="Roboto" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Processo SUSEP: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="467" y="26" width="88" height="15" uuid="7cac1fc5-8724-47c4-b592-5440bfa4b3be"/>
+				<textElement textAlignment="Right">
+					<font fontName="Roboto" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[15414.100233/2004-59
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="467" y="41" width="88" height="15" uuid="c62ff239-e897-4bae-973a-419db7f10935"/>
+				<textElement textAlignment="Right">
+					<font fontName="Roboto" size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[15414.100639/2004-31]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="406" y="41" width="70" height="15" uuid="aeb02bb6-9889-4aeb-a14e-81d1838ef655"/>
+				<textElement>
+					<font fontName="Roboto" size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Processo SUSEP: ]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="80" width="555" height="1" forecolor="#D9D9D9" uuid="3f3014b6-f989-4941-8b4f-10ac7a8830de">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.75" lineColor="#D9D9D9"/>
+				</graphicElement>
+			</line>
+			<textField>
+				<reportElement x="270" y="45" width="80" height="15" uuid="6acd76a3-4d6e-4d4b-b4c4-b3e9dc6ef4df">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" "+$F{numeroDocumento}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="273" y="60" width="50" height="15" uuid="cb46b2fb-ac7f-4210-a5f2-87cba365011d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dataValidade}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="461" y="54" width="125" height="15" uuid="6224504a-4381-4466-ad25-3ce8bbe42858">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0"/>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<font fontName="Roboto" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Realizado em " + $F{dataGeracao}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="700">
+			<staticText>
+				<reportElement x="0" y="5" width="150" height="15" uuid="24d2f1ba-c846-4e9f-9045-e1215ba59f25">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Resumo do orçamento]]></text>
+			</staticText>
+			<subreport>
+				<reportElement x="0" y="23" width="555" height="100" uuid="91675ccb-26fd-4e2e-a899-060733001540">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<parametersMapExpression><![CDATA[$P{REPORT_PARAMETERS_MAP}]]></parametersMapExpression>
+				<subreportExpression><![CDATA["DadosGerais.jasper"]]></subreportExpression>
+			</subreport>
+			<subreport>
+				<reportElement x="0" y="126" width="555" height="60" uuid="84d8c33f-cb1a-4cd8-ade0-0540579b6cca">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<parametersMapExpression><![CDATA[$P{REPORT_PARAMETERS_MAP}]]></parametersMapExpression>
+				<subreportExpression><![CDATA["DadosVeiculo.jasper"]]></subreportExpression>
+			</subreport>
+			<subreport>
+				<reportElement x="0" y="188" width="555" height="80" uuid="30d7dd8e-0724-4d8f-841c-901614a731cd">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource() ]]></dataSourceExpression>
+				<subreportExpression><![CDATA["DadosCoberturasServicos.jasper"]]></subreportExpression>
+			</subreport>
+			<subreport>
+				<reportElement x="0" y="269" width="555" height="150" uuid="2d27052b-6c7a-49b6-b143-cadcf0a702d5">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<subreportExpression><![CDATA["DadosServicos.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="25" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<staticText>
+				<reportElement x="0" y="12" width="220" height="13" uuid="9e0e466f-8668-478e-8d07-90e65e9e6414">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Segoe U" size="8"/>
+				</textElement>
+				<text><![CDATA[20221213.11.0011C.0000A.0000G]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="449" y="0" width="41" height="13" uuid="ae71ca1c-1ddc-4b92-a87f-f5e212b9f140"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Segoe U" size="8"/>
+				</textElement>
+				<text><![CDATA[Impresso:]]></text>
+			</staticText>
+			<textField pattern="dd/MM/yyyy HH:mm">
+				<reportElement x="472" y="0" width="83" height="13" uuid="16a8edeb-6fad-4c1e-8433-a476eeef0cd3"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Segoe U" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="471" y="13" width="84" height="12" uuid="711c4ea9-5347-4ddd-8e66-3d8aa335b25c"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Segoe U" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA["COL10J" + " Pag. " + $V{PAGE_COUNT} + " de " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="0" width="70" height="12" uuid="c18606d5-51e3-47ab-8f41-a8fb1f586aa6">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Uso interno da Cia]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>

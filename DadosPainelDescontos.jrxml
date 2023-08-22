@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DadosDescontos" pageWidth="555" pageHeight="28" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="9b6c002b-2568-4c1b-b568-c450773363a8">
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="27" splitType="Stretch">
+			<property name="com.jaspersoft.studio.layout"/>
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="13" forecolor="#F0F2F8" backcolor="#F0F2F8" uuid="250b249f-7d32-48bf-aaed-9263641a56c8">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="6" y="0" width="114" height="13" forecolor="#687384" backcolor="rgba(201, 114, 113, 0.0)" uuid="bcff4cf3-8c01-4ed1-a6b3-0e288b1137b2"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DESCONTOS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="10" y="14" width="40" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="6a53c4e7-2935-46c4-b7e9-29196f1e4732"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Descrição]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="14" width="40" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="864f12f5-b09f-458e-ba14-4588f83f1fe5"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Desconto]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="284" y="14" width="40" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="844222ed-d6e6-400e-9fc3-7a84d1ea2cef"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Descrição]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="504" y="14" width="40" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="5cca4a10-fc4c-4183-997a-b972aeb6935d"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Roboto" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Desconto]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

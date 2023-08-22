@@ -189,16 +189,24 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
-				<dataSourceExpression><![CDATA[new net.sf.jasperreports.engine.JREmptyDataSource() ]]></dataSourceExpression>
+				<parametersMapExpression><![CDATA[$P{REPORT_PARAMETERS_MAP}]]></parametersMapExpression>
 				<subreportExpression><![CDATA["DadosCoberturasServicos.jasper"]]></subreportExpression>
 			</subreport>
 			<subreport>
-				<reportElement x="0" y="269" width="555" height="150" uuid="2d27052b-6c7a-49b6-b143-cadcf0a702d5">
+				<reportElement x="0" y="244" width="555" height="150" uuid="2d27052b-6c7a-49b6-b143-cadcf0a702d5">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
-				<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+				<parametersMapExpression><![CDATA[$P{REPORT_PARAMETERS_MAP}]]></parametersMapExpression>
 				<subreportExpression><![CDATA["DadosServicos.jasper"]]></subreportExpression>
+			</subreport>
+			<subreport>
+				<reportElement x="0" y="401" width="555" height="28" uuid="bba36ec1-c104-4087-aded-5eca8057eed3">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<parametersMapExpression><![CDATA[$P{REPORT_PARAMETERS_MAP}]]></parametersMapExpression>
+				<subreportExpression><![CDATA["DadosPainelDescontos.jasper"]]></subreportExpression>
 			</subreport>
 		</band>
 	</detail>

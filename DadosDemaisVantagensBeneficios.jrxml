@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DadosDescontos" columnCount="3" printOrder="Horizontal" pageWidth="555" pageHeight="85" columnWidth="181" leftMargin="10" rightMargin="0" topMargin="10" bottomMargin="0" uuid="9b6c002b-2568-4c1b-b568-c450773363a8">
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DadosDescontos" columnCount="3" printOrder="Horizontal" pageWidth="555" pageHeight="85" columnWidth="131" columnSpacing="80" leftMargin="0" rightMargin="0" topMargin="10" bottomMargin="0" uuid="9b6c002b-2568-4c1b-b568-c450773363a8">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (5)"/>
 	<property name="com.jaspersoft.studio.unit." value="pixel"/>
 	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
@@ -36,9 +36,9 @@
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement>
-					<font fontName="Porto Roobert" size="8"/>
+					<font fontName="Porto Roobert Medium" size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{informacoes}]]></textFieldExpression>
+				<textFieldExpression><![CDATA["•  " + $F{informacoes}]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>

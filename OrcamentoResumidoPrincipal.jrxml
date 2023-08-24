@@ -38,7 +38,7 @@
 		<band splitType="Stretch"/>
 	</background>
 	<pageHeader>
-		<band height="81" splitType="Stretch">
+		<band height="86" splitType="Stretch">
 			<property name="com.jaspersoft.studio.layout"/>
 			<staticText>
 				<reportElement x="0" y="53" width="146" height="20" uuid="76a50f40-ec47-4540-934d-675f1307bf5b">
@@ -209,7 +209,7 @@
 				<subreportExpression><![CDATA["DadosDescontos.jasper"]]></subreportExpression>
 			</subreport>
 			<subreport>
-				<reportElement x="0" y="523" width="555" height="85" uuid="e7bbeac2-a9ec-4699-b821-87323e3adb5f">
+				<reportElement x="0" y="522" width="555" height="85" uuid="e7bbeac2-a9ec-4699-b821-87323e3adb5f">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
@@ -217,11 +217,11 @@
 				<subreportExpression><![CDATA["DadosDemaisVantagensBeneficios.jasper"]]></subreportExpression>
 			</subreport>
 			<textField>
-				<reportElement x="0" y="502" width="100" height="15" uuid="803b178c-da04-47f9-9796-17bccdef38b8"/>
+				<reportElement x="0" y="508" width="100" height="15" uuid="803b178c-da04-47f9-9796-17bccdef38b8"/>
 				<textElement>
-					<font fontName="Porto Roobert"/>
+					<font fontName="Porto Roobert" size="7" isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA["Demais Vantagens"]]></textFieldExpression>
+				<textFieldExpression><![CDATA["Demais vantagens e benefícios"]]></textFieldExpression>
 			</textField>
 			<subreport>
 				<reportElement x="1" y="625" width="555" height="71" uuid="38c51247-50e4-4e54-b32b-02ae5dee1e66">
@@ -230,6 +230,14 @@
 				<parametersMapExpression><![CDATA[$P{REPORT_PARAMETERS_MAP}]]></parametersMapExpression>
 				<subreportExpression><![CDATA["DadosPremio.jasper"]]></subreportExpression>
 			</subreport>
+			<line>
+				<reportElement x="-1" y="519" width="555" height="1" forecolor="#D9D9D9" uuid="93c52934-32aa-4d1a-a038-440b1ce5347b">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.75" lineColor="#D9D9D9"/>
+				</graphicElement>
+			</line>
 		</band>
 	</detail>
 	<pageFooter>

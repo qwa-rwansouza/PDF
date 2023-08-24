@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DadosDescontos" columnCount="3" printOrder="Horizontal" pageWidth="555" pageHeight="85" columnWidth="181" leftMargin="10" rightMargin="0" topMargin="10" bottomMargin="0" uuid="9b6c002b-2568-4c1b-b568-c450773363a8">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (5)"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<queryString language="JSON">
+		<![CDATA[dadosCoberturasComplementares.listaCoberturasComplementares.coberturas]]>
+	</queryString>
+	<field name="informacoes" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="informacoes"/>
+		<fieldDescription><![CDATA[informacoes]]></fieldDescription>
+	</field>
+	<field name="valor" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="valor"/>
+		<fieldDescription><![CDATA[valor]]></fieldDescription>
+	</field>
+	<variable name="count" class="java.lang.Integer" resetType="Column"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="15" splitType="Stretch">
+			<textField>
+				<reportElement x="12" y="0" width="190" height="13" uuid="a821e8c5-3935-4ee8-86db-dea30d9d94dc">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Roboto" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{informacoes}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

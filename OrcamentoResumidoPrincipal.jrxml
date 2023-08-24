@@ -70,14 +70,14 @@
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Roboto" size="10" isBold="false"/>
+					<font fontName="Porto Roobert" size="10" isBold="false"/>
 				</textElement>
 				<text><![CDATA[Tradicional e Residência Fácil]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="227" y="45" width="50" height="15" uuid="13316e2a-e513-4958-b864-cbbb1c033c7c"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Roboto" size="8" isBold="true"/>
+					<font fontName="Porto Roobert&#xD;&#xA;" size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Orçamento:]]></text>
 			</staticText>
@@ -91,14 +91,14 @@
 			<staticText>
 				<reportElement x="406" y="26" width="70" height="15" uuid="253029eb-aa8d-417e-b844-8deda80a5540"/>
 				<textElement>
-					<font fontName="Roboto" size="8" isBold="true"/>
+					<font fontName="Porto Roobert&#xD;&#xA;" size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Processo SUSEP: ]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="467" y="26" width="88" height="15" uuid="7cac1fc5-8724-47c4-b592-5440bfa4b3be"/>
 				<textElement textAlignment="Right">
-					<font fontName="Roboto" size="8" isBold="false"/>
+					<font fontName="Porto Roobert" size="8" isBold="false"/>
 				</textElement>
 				<text><![CDATA[15414.100233/2004-59
 ]]></text>
@@ -106,14 +106,14 @@
 			<staticText>
 				<reportElement x="467" y="41" width="88" height="15" uuid="c62ff239-e897-4bae-973a-419db7f10935"/>
 				<textElement textAlignment="Right">
-					<font fontName="Roboto" size="8" isBold="false"/>
+					<font fontName="Porto Roobert" size="8" isBold="false"/>
 				</textElement>
 				<text><![CDATA[15414.100639/2004-31]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="406" y="41" width="70" height="15" uuid="aeb02bb6-9889-4aeb-a14e-81d1838ef655"/>
 				<textElement>
-					<font fontName="Roboto" size="8" isBold="true"/>
+					<font fontName="Porto Roobert" size="8" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Processo SUSEP: ]]></text>
 			</staticText>
@@ -131,7 +131,7 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Roboto" size="9"/>
+					<font fontName="Porto Roobert&#xD;&#xA;" size="9"/>
 				</textElement>
 				<textFieldExpression><![CDATA[" "+$F{numeroDocumento}]]></textFieldExpression>
 			</textField>
@@ -151,7 +151,7 @@
 				</reportElement>
 				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0"/>
 				<textElement textAlignment="Justified" verticalAlignment="Top">
-					<font fontName="Roboto" size="8" isBold="true"/>
+					<font fontName="Porto Roobert" size="8" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA["Realizado em " + $F{dataGeracao}]]></textFieldExpression>
 			</textField>
@@ -164,7 +164,7 @@
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Roboto" isBold="true"/>
+					<font fontName="Porto Roobert" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Resumo do orçamento]]></text>
 			</staticText>
@@ -201,7 +201,7 @@
 				<subreportExpression><![CDATA["DadosServicos.jasper"]]></subreportExpression>
 			</subreport>
 			<subreport>
-				<reportElement x="0" y="379" width="555" height="75" uuid="845688d6-d276-4d00-ad60-f8449f1b8390">
+				<reportElement x="0" y="412" width="555" height="75" uuid="845688d6-d276-4d00-ad60-f8449f1b8390">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -209,7 +209,7 @@
 				<subreportExpression><![CDATA["DadosDescontos.jasper"]]></subreportExpression>
 			</subreport>
 			<subreport>
-				<reportElement x="0" y="474" width="555" height="85" uuid="e7bbeac2-a9ec-4699-b821-87323e3adb5f">
+				<reportElement x="0" y="523" width="555" height="85" uuid="e7bbeac2-a9ec-4699-b821-87323e3adb5f">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
@@ -217,9 +217,19 @@
 				<subreportExpression><![CDATA["DadosDemaisVantagensBeneficios.jasper"]]></subreportExpression>
 			</subreport>
 			<textField>
-				<reportElement x="0" y="458" width="100" height="15" uuid="803b178c-da04-47f9-9796-17bccdef38b8"/>
+				<reportElement x="0" y="502" width="100" height="15" uuid="803b178c-da04-47f9-9796-17bccdef38b8"/>
+				<textElement>
+					<font fontName="Porto Roobert"/>
+				</textElement>
 				<textFieldExpression><![CDATA["Demais Vantagens"]]></textFieldExpression>
 			</textField>
+			<subreport>
+				<reportElement x="1" y="625" width="555" height="71" uuid="38c51247-50e4-4e54-b32b-02ae5dee1e66">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<parametersMapExpression><![CDATA[$P{REPORT_PARAMETERS_MAP}]]></parametersMapExpression>
+				<subreportExpression><![CDATA["DadosPremio.jasper"]]></subreportExpression>
+			</subreport>
 		</band>
 	</detail>
 	<pageFooter>

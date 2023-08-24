@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DadosPremio" pageWidth="555" pageHeight="65" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="05f18018-3dd3-4bf0-baef-a717a134fba5">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (5)"/>
+	<queryString language="JSON">
+		<![CDATA[dadosPremio]]>
+	</queryString>
+	<field name="premioTotalLiquido" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="premioTotalLiquido"/>
+		<fieldDescription><![CDATA[premioTotalLiquido]]></fieldDescription>
+	</field>
+	<field name="iof" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="iof"/>
+		<fieldDescription><![CDATA[iof]]></fieldDescription>
+	</field>
+	<field name="premioTotal" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="premioTotal"/>
+		<fieldDescription><![CDATA[premioTotal]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="65" splitType="Stretch">
+			<property name="com.jaspersoft.studio.unit.height" value="px"/>
+			<rectangle>
+				<reportElement x="0" y="-1" width="555" height="36" forecolor="#F0F2F8" backcolor="#F0F2F8" uuid="a682f66c-d1eb-4202-9b69-f7dacaf8d43b"/>
+				<graphicElement>
+					<pen lineWidth="0.0" lineColor="#F0F2F8"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="9" y="5" width="73" height="12" uuid="f14578b5-9c81-4ea6-881c-95b536a925bf">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Porto Roobert" size="8"/>
+				</textElement>
+				<text><![CDATA[Prêmio total líquido: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="9" y="20" width="21" height="12" uuid="4aa109cc-fc2a-4dc2-9a39-b9d73e8450e9"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Porto Roobert" size="8"/>
+				</textElement>
+				<text><![CDATA[IOF:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="410" y="14" width="55" height="12" uuid="f3abee7b-b05c-4896-9136-d29acae34e6a">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Porto Roobert&#xD;&#xA;" size="8"/>
+				</textElement>
+				<text><![CDATA[Prêmio total: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="40" width="440" height="20" forecolor="#666262" uuid="0d6564f5-6f47-457f-8020-b4b3205cccbd"/>
+				<textElement>
+					<font fontName="Porto Roobert" size="7"/>
+				</textElement>
+				<text><![CDATA[Em atendimento à regulamentação vigente, informamos que incidem as alíquotas PIS 0,65%; COFINS 4,00%, sobre formação de preço.
+O registro do produto é automático e não representa aprovação ou recomendação por parte da Susep.]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="83" y="5" width="71" height="12" uuid="b7158dfb-7de1-4d1c-bdb1-7253355398d7">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Porto Roobert" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{premioTotalLiquido}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="26" y="20" width="71" height="12" uuid="89d85256-cd38-43d8-897e-f5a09363b0c9">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Porto Roobert&#xD;&#xA;" size="8" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{iof}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="458" y="9" width="80" height="26" uuid="a74781ef-3447-4544-adbe-d57e1279ceaa">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Porto Roobert &#xD;&#xA;" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{premioTotal}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

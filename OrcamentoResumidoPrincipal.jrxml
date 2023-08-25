@@ -34,6 +34,10 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="dadosCabecalho.logoCobranding"/>
 		<fieldDescription><![CDATA[dadosCabecalho.logoCobranding]]></fieldDescription>
 	</field>
+	<field name="susepCorretora" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.susepCorretora"/>
+		<fieldDescription><![CDATA[dadosGerais.susepCorretora]]></fieldDescription>
+	</field>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
@@ -298,7 +302,7 @@
 				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="8"/>
 				</textElement>
-				<textFieldExpression><![CDATA["COL10J" + " Pag. " + $V{PAGE_COUNT} + " de " + $V{PAGE_NUMBER}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{susepCorretora} + " Pag. " + $V{PAGE_COUNT} + " de " + $V{PAGE_NUMBER}]]></textFieldExpression>
 			</textField>
 			<staticText>
 				<reportElement x="0" y="0" width="70" height="12" uuid="c18606d5-51e3-47ab-8f41-a8fb1f586aa6">

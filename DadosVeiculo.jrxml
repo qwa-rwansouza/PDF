@@ -75,7 +75,7 @@
 			<staticText>
 				<reportElement x="6" y="0" width="64" height="13" forecolor="#687384" backcolor="rgba(201, 114, 113, 0.0)" uuid="165e0dfc-db5c-41c1-9370-7d6d4d164c60"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[VEÍCULO]]></text>
 			</staticText>
@@ -90,7 +90,7 @@
 			<staticText>
 				<reportElement x="6" y="13" width="24" height="10" uuid="467a6047-38c7-40a6-9290-26abe3c20e51"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Placa]]></text>
 			</staticText>
@@ -109,7 +109,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Chassi]]></text>
 			</staticText>
@@ -122,7 +122,7 @@
 			<staticText>
 				<reportElement x="134" y="13" width="35" height="10" uuid="0acba0d6-538b-452c-a980-ade830a5a3d6"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Veículo]]></text>
 			</staticText>
@@ -135,7 +135,7 @@
 			<staticText>
 				<reportElement x="6" y="36" width="114" height="10" uuid="63092dc5-1acb-451b-b8e2-682f39d11184"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Dispositivos antifurto/anti-roubo]]></text>
 			</staticText>
@@ -148,7 +148,7 @@
 			<staticText>
 				<reportElement x="336" y="13" width="94" height="10" uuid="a7643ac0-c9d3-49a8-9023-ed0c9bcb3f83"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Ano Fabricação / Modelo]]></text>
 			</staticText>
@@ -161,7 +161,7 @@
 			<staticText>
 				<reportElement x="436" y="13" width="44" height="10" uuid="419e6373-3e1e-48da-91ee-21e6d56cb4e4"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Veículo 0 KM]]></text>
 			</staticText>
@@ -174,7 +174,7 @@
 			<staticText>
 				<reportElement x="496" y="13" width="14" height="10" uuid="ece3059a-757d-4a21-a068-bd628d5ada61"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Uso]]></text>
 			</staticText>
@@ -187,7 +187,7 @@
 			<staticText>
 				<reportElement x="436" y="36" width="60" height="10" uuid="53980242-6963-4eef-8bf1-15ecfa186fbd"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[CEP de Pernoite]]></text>
 			</staticText>
@@ -199,7 +199,7 @@
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement>
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{placaVeiculo}]]></textFieldExpression>
 			</textField>
@@ -211,7 +211,7 @@
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement>
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{chassiVeiculo}]]></textFieldExpression>
 			</textField>
@@ -223,7 +223,7 @@
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement>
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{codigoVeiculo} + " - " + $F{modeloVeiculo}]]></textFieldExpression>
 			</textField>
@@ -235,7 +235,7 @@
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement>
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{anoFabricacaoVeiculo} + " / " + $F{anoModeloVeiculo}]]></textFieldExpression>
 			</textField>
@@ -247,7 +247,7 @@
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement>
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{veiculoKmFlag}.equals("S") ? "Sim" : "Não"]]></textFieldExpression>
 			</textField>
@@ -259,7 +259,7 @@
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement>
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{usoVeiculo}]]></textFieldExpression>
 			</textField>
@@ -271,7 +271,7 @@
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement>
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{cepPernoiteVeiculo}]]></textFieldExpression>
 			</textField>
@@ -283,7 +283,7 @@
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
 				<textElement>
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{dispositivosVeiculo}]]></textFieldExpression>
 			</textField>

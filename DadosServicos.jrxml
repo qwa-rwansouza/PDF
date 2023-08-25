@@ -39,28 +39,28 @@
 			<staticText>
 				<reportElement x="10" y="1" width="40" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="d451eb22-ca7c-46d1-9391-13347f85e2fe"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Descrição]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="190" y="1" width="100" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="93b94544-2b38-4bc1-98d8-e5ece1279007"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Franquia]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="300" y="1" width="120" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="5193e72e-cf98-401d-a4a2-7214298ef772"/>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[LMI (Indenização) - Valor de Mercado]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="480" y="1" width="70" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="9121279a-b60d-4777-9aa5-6f4a400a4312"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Valor do prêmio]]></text>
 			</staticText>
@@ -86,7 +86,7 @@
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{nomeCobertura}]]></textFieldExpression>
 			</textField>
@@ -96,7 +96,7 @@
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{valor}]]></textFieldExpression>
 			</textField>
@@ -106,7 +106,7 @@
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{valorPremio}]]></textFieldExpression>
 			</textField>

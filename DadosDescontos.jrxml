@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DadosDescontos" columnCount="2" printOrder="Horizontal" pageWidth="555" pageHeight="75" columnWidth="262" columnSpacing="20" leftMargin="10" rightMargin="0" topMargin="10" bottomMargin="0" uuid="9b6c002b-2568-4c1b-b568-c450773363a8">
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DadosCoberturasServicos" columnCount="2" printOrder="Horizontal" pageWidth="555" pageHeight="110" columnWidth="277" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="cc2b0981-e437-485f-a337-19427216d436">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (5)"/>
 	<property name="com.jaspersoft.studio.unit." value="pixel"/>
 	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
@@ -11,6 +11,11 @@
 	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
 	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
 	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<subDataset name="Dataset1" uuid="63ab8a2b-22e5-4d12-a64b-5a93d04ab862">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+	</subDataset>
 	<queryString language="JSON">
 		<![CDATA[dadosDesconto.listaDescontos.desconto]]>
 	</queryString>
@@ -22,46 +27,55 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="percentualDesconto"/>
 		<fieldDescription><![CDATA[percentualDesconto]]></fieldDescription>
 	</field>
-	<variable name="count" class="java.lang.Integer" resetType="Column"/>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
+	<columnHeader>
+		<band height="16">
+			<staticText>
+				<reportElement x="10" y="1" width="40" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="d451eb22-ca7c-46d1-9391-13347f85e2fe"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Descrição]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="202" y="1" width="70" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="9121279a-b60d-4777-9aa5-6f4a400a4312"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Desconto]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
 	<detail>
-		<band height="15" splitType="Stretch">
-			<line>
-				<reportElement x="-10" y="0" width="555" height="1" uuid="fcf7c804-c04b-4e21-a248-97e96a382cb6">
+		<band height="17" splitType="Stretch">
+			<textField>
+				<reportElement x="9" y="2" width="150" height="13" uuid="7762fcc5-006f-4ba2-8d81-1701bde2ae34">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Porto Roobert Medium" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nomeDesconto}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="202" y="2" width="70" height="13" uuid="464831c9-de5d-48eb-a1e8-39cfdf4011d7">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Porto Roobert Medium" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{percentualDesconto}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="1" width="555" height="1" uuid="2bd1f027-a8f4-43e3-95d6-0c72ad6fb1b7"/>
 				<graphicElement>
 					<pen lineWidth="0.75" lineColor="#D9D9D9"/>
 				</graphicElement>
 			</line>
-			<textField>
-				<reportElement x="1" y="2" width="190" height="13" uuid="a821e8c5-3935-4ee8-86db-dea30d9d94dc">
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-				</reportElement>
-				<textElement>
-					<font fontName="Porto Roobert" size="8"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$F{nomeDesconto}]]></textFieldExpression>
-			</textField>
-			<rectangle>
-				<reportElement mode="Opaque" x="250" y="-5" width="11" height="11" forecolor="#FFFFFF" backcolor="#FFFFFF" uuid="a37d4d07-e04a-457b-9a79-45a1bd841ca2"/>
-			</rectangle>
-			<textField>
-				<reportElement x="218" y="2" width="40" height="13" uuid="7d53a46c-bcb2-4b65-993d-d736b798b762">
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-				</reportElement>
-				<textElement>
-					<font fontName="Roboto" size="7"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$F{percentualDesconto}]]></textFieldExpression>
-			</textField>
 		</band>
 	</detail>
 </jasperReport>

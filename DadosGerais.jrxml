@@ -96,7 +96,7 @@
 			<staticText>
 				<reportElement x="6" y="0" width="64" height="13" forecolor="#687384" backcolor="rgba(201, 114, 113, 0.0)" uuid="165e0dfc-db5c-41c1-9370-7d6d4d164c60"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[DADOS GERAIS]]></text>
 			</staticText>
@@ -111,7 +111,7 @@
 			<staticText>
 				<reportElement x="6" y="13" width="44" height="10" uuid="467a6047-38c7-40a6-9290-26abe3c20e51"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Segurado(a)]]></text>
 			</staticText>
@@ -130,7 +130,7 @@
 					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 				</box>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Nascimento]]></text>
 			</staticText>
@@ -143,7 +143,7 @@
 			<staticText>
 				<reportElement x="466" y="13" width="20" height="10" uuid="0acba0d6-538b-452c-a980-ade830a5a3d6"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[CPF]]></text>
 			</staticText>
@@ -158,7 +158,7 @@
 			<staticText>
 				<reportElement x="6" y="36" width="34" height="10" uuid="8f49df93-a133-4389-9c1e-dc0fc5ec95bc"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Corretor]]></text>
 			</staticText>
@@ -171,7 +171,7 @@
 			<staticText>
 				<reportElement x="136" y="36" width="24" height="10" uuid="7f86b0bb-c7c0-413d-a949-09782279c6a8"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[SUSEP]]></text>
 			</staticText>
@@ -184,7 +184,7 @@
 			<staticText>
 				<reportElement x="184" y="36" width="36" height="10" uuid="2f5bd0b9-8d8b-447f-a1d8-1aa11df67c2a"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Telefone]]></text>
 			</staticText>
@@ -197,7 +197,7 @@
 			<staticText>
 				<reportElement x="285" y="36" width="25" height="10" uuid="63092dc5-1acb-451b-b8e2-682f39d11184"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[E-mail]]></text>
 			</staticText>
@@ -212,7 +212,7 @@
 			<staticText>
 				<reportElement x="6" y="60" width="54" height="9" uuid="5e1e67ef-f39f-4612-89f9-46bef9a0ec56"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Tipo Operação]]></text>
 			</staticText>
@@ -231,14 +231,14 @@
 			<staticText>
 				<reportElement x="100" y="60" width="36" height="9" uuid="9cd48eab-8135-4c5c-9bef-0282311bf24a"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Segmento]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="184" y="59" width="36" height="10" uuid="6e9b4a6c-f0fb-42c3-bb83-a73ea6bc3d1b"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Sucursal]]></text>
 			</staticText>
@@ -251,7 +251,7 @@
 			<staticText>
 				<reportElement x="225" y="59" width="36" height="10" uuid="58d8730f-ee64-42a8-857b-757428c89b24"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Apólice]]></text>
 			</staticText>
@@ -264,7 +264,7 @@
 			<staticText>
 				<reportElement x="275" y="59" width="25" height="10" uuid="3a41551e-11c1-4228-b627-a8edce90d188"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Item]]></text>
 			</staticText>
@@ -277,7 +277,7 @@
 			<staticText>
 				<reportElement x="305" y="59" width="35" height="10" uuid="9fa37ae3-7d10-4c1e-a2ef-a036cf8646a7"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Vigência]]></text>
 			</staticText>
@@ -290,7 +290,7 @@
 			<staticText>
 				<reportElement x="435" y="59" width="25" height="10" uuid="dc213554-597d-47b1-8495-48c6723e97cc"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Bônus]]></text>
 			</staticText>
@@ -303,14 +303,14 @@
 			<staticText>
 				<reportElement x="478" y="59" width="62" height="10" uuid="fbb3b5fb-af8f-4aad-9e60-40ecb34e6db2"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="true"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Origem do Bônus]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="1" y="90" width="554" height="9" uuid="8608fae2-a1d6-4e7f-b7bd-5fc8e6add3eb"/>
+				<reportElement x="2" y="89" width="554" height="9" uuid="8608fae2-a1d6-4e7f-b7bd-5fc8e6add3eb"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7" isBold="false"/>
+					<font fontName="Porto Roobert Medium" size="7" isBold="false"/>
 				</textElement>
 				<text><![CDATA[Modalidades de remuneração poderão se aplicar ao relacionamento entre a seguradora e o intermediário, conforme politicas internas.]]></text>
 			</staticText>
@@ -319,7 +319,7 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="8"/>
+					<font fontName="Porto Roobert Medium" size="8"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{nomeProponenteOuSegurado}]]></textFieldExpression>
 			</textField>
@@ -328,7 +328,7 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{nomeCorretora}]]></textFieldExpression>
 			</textField>
@@ -337,7 +337,7 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{susepCorretora}]]></textFieldExpression>
 			</textField>
@@ -346,7 +346,7 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{telefoneCorretora}]]></textFieldExpression>
 			</textField>
@@ -355,7 +355,7 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{emailCorretora}]]></textFieldExpression>
 			</textField>
@@ -366,7 +366,7 @@
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{dataNascimentoProponente}]]></textFieldExpression>
 			</textField>
@@ -377,7 +377,7 @@
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{cpfOuCnpjProponente}]]></textFieldExpression>
 			</textField>
@@ -386,7 +386,7 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{tipoOperacao}]]></textFieldExpression>
 			</textField>
@@ -395,7 +395,7 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{segmentoSeguro}]]></textFieldExpression>
 			</textField>
@@ -404,7 +404,7 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{dataInicio} + " " + "até" + " " + $F{dataFim} + " " +  $F{quantidadeDias}]]></textFieldExpression>
 			</textField>
@@ -413,7 +413,7 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{bonusUnicoSeguro}]]></textFieldExpression>
 			</textField>
@@ -422,7 +422,7 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[($F{sucursalSeguro} == null ? "-" : $F{sucursalSeguro})]]></textFieldExpression>
 			</textField>
@@ -431,7 +431,7 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[($F{apoliceSeguro} == null) ? "-" : $F{apoliceSeguro}]]></textFieldExpression>
 			</textField>
@@ -440,7 +440,7 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[($F{itemSeguro} == null ) ? "-" : $F{itemSeguro}]]></textFieldExpression>
 			</textField>
@@ -449,7 +449,7 @@
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[($F{origemBonus} == null ) ? "-" : $F{origemBonus}]]></textFieldExpression>
 			</textField>

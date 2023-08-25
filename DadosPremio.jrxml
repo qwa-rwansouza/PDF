@@ -34,14 +34,14 @@
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="8"/>
+					<font fontName="Porto Roobert Medium" size="8"/>
 				</textElement>
 				<text><![CDATA[Prêmio total líquido: ]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="9" y="20" width="21" height="12" uuid="4aa109cc-fc2a-4dc2-9a39-b9d73e8450e9"/>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="8"/>
+					<font fontName="Porto Roobert Medium" size="8"/>
 				</textElement>
 				<text><![CDATA[IOF:]]></text>
 			</staticText>
@@ -50,52 +50,53 @@
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert&#xD;&#xA;" size="8"/>
+					<font fontName="Porto Roobert Medium&#xD;&#xA;" size="8"/>
 				</textElement>
 				<text><![CDATA[Prêmio total: ]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="3" y="40" width="440" height="20" forecolor="#666262" uuid="0d6564f5-6f47-457f-8020-b4b3205cccbd"/>
 				<textElement>
-					<font fontName="Porto Roobert" size="7"/>
+					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<text><![CDATA[Em atendimento à regulamentação vigente, informamos que incidem as alíquotas PIS 0,65%; COFINS 4,00%, sobre formação de preço.
 O registro do produto é automático e não representa aprovação ou recomendação por parte da Susep.]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="83" y="5" width="71" height="12" uuid="b7158dfb-7de1-4d1c-bdb1-7253355398d7">
+				<reportElement x="458" y="9" width="80" height="26" uuid="ec945aed-f4da-4b03-a1e8-5f71d2386a35">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Porto Roobert Medium" size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{premioTotal}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="83" y="5" width="71" height="12" uuid="b3b9f2d0-8e13-4836-83a7-489e9ec4f61b">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
-				<textElement textAlignment="Left" verticalAlignment="Middle">
-					<font fontName="Porto Roobert" size="8" isBold="true"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Porto Roobert Medium" size="8" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{premioTotalLiquido}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="26" y="20" width="71" height="12" uuid="89d85256-cd38-43d8-897e-f5a09363b0c9">
+				<reportElement x="26" y="20" width="71" height="12" uuid="fc55e4eb-26a9-4fb2-b35b-013f59da8622">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.x" value="px"/>
-				</reportElement>
-				<textElement>
-					<font fontName="Porto Roobert&#xD;&#xA;" size="8" isBold="true"/>
-				</textElement>
-				<textFieldExpression><![CDATA[$F{iof}]]></textFieldExpression>
-			</textField>
-			<textField>
-				<reportElement x="458" y="9" width="80" height="26" uuid="a74781ef-3447-4544-adbe-d57e1279ceaa">
-					<property name="com.jaspersoft.studio.unit.width" value="px"/>
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
-				<textElement>
-					<font fontName="Porto Roobert &#xD;&#xA;" size="14" isBold="true"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Porto Roobert Medium" size="8" isBold="true"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{premioTotal}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{iof}]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>

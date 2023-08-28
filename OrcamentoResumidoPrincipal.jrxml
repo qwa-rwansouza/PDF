@@ -38,6 +38,18 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.susepCorretora"/>
 		<fieldDescription><![CDATA[dadosGerais.susepCorretora]]></fieldDescription>
 	</field>
+	<field name="flagRamosElementares" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosPagamento.flagRamosElementares"/>
+		<fieldDescription><![CDATA[dadosPagamento.flagRamosElementares]]></fieldDescription>
+	</field>
+	<field name="segmentoSeguro" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.segmentoSeguro"/>
+		<fieldDescription><![CDATA[dadosGerais.segmentoSeguro]]></fieldDescription>
+	</field>
+	<field name="validadeCotacao" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosRodape.validadeCotacao"/>
+		<fieldDescription><![CDATA[dadosRodape.validadeCotacao]]></fieldDescription>
+	</field>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
@@ -68,15 +80,6 @@
 					<font fontName="Porto Roobert Medium" size="14" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Orçamento de Seguro Auto]]></text>
-			</staticText>
-			<staticText>
-				<reportElement x="182" y="17" width="190" height="15" uuid="5fb8cb64-3b4b-4bbc-8720-67a4d1376441">
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
-					<font fontName="Porto Roobert Medium" size="10" isBold="false"/>
-				</textElement>
-				<text><![CDATA[Tradicional e Residência Fácil]]></text>
 			</staticText>
 			<staticText>
 				<reportElement x="227" y="45" width="50" height="15" uuid="13316e2a-e513-4958-b864-cbbb1c033c7c"/>
@@ -159,6 +162,18 @@
 				</textElement>
 				<text><![CDATA[Processo SUSEP: ]]></text>
 			</staticText>
+			<textField>
+				<reportElement x="182" y="17" width="190" height="15" uuid="86a806f3-8f5d-4ec1-a843-0d923ae93a32">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Porto Roobert Medium" size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{flagRamosElementares}.equals("TRUE")? $F{segmentoSeguro}+" e "+ "Residência Fácil": ($F{segmentoSeguro})]]></textFieldExpression>
+			</textField>
 		</band>
 	</pageHeader>
 	<detail>
@@ -189,7 +204,7 @@
 				<subreportExpression><![CDATA["DadosVeiculo.jasper"]]></subreportExpression>
 			</subreport>
 			<subreport>
-				<reportElement x="0" y="188" width="555" height="80" uuid="30d7dd8e-0724-4d8f-841c-901614a731cd">
+				<reportElement x="0" y="194" width="555" height="80" uuid="30d7dd8e-0724-4d8f-841c-901614a731cd">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -197,7 +212,7 @@
 				<subreportExpression><![CDATA["DadosCoberturasServicos.jasper"]]></subreportExpression>
 			</subreport>
 			<subreport>
-				<reportElement x="0" y="244" width="555" height="150" uuid="2d27052b-6c7a-49b6-b143-cadcf0a702d5">
+				<reportElement x="0" y="251" width="555" height="150" uuid="2d27052b-6c7a-49b6-b143-cadcf0a702d5">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -205,7 +220,7 @@
 				<subreportExpression><![CDATA["DadosServicos.jasper"]]></subreportExpression>
 			</subreport>
 			<subreport>
-				<reportElement x="0" y="405" width="555" height="100" uuid="845688d6-d276-4d00-ad60-f8449f1b8390">
+				<reportElement x="0" y="411" width="555" height="100" uuid="845688d6-d276-4d00-ad60-f8449f1b8390">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
@@ -213,7 +228,7 @@
 				<subreportExpression><![CDATA["DadosDescontos.jasper"]]></subreportExpression>
 			</subreport>
 			<subreport>
-				<reportElement x="0" y="522" width="555" height="85" uuid="e7bbeac2-a9ec-4699-b821-87323e3adb5f">
+				<reportElement x="0" y="521" width="555" height="85" uuid="e7bbeac2-a9ec-4699-b821-87323e3adb5f">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
@@ -228,14 +243,14 @@
 				<textFieldExpression><![CDATA["Demais vantagens e benefícios"]]></textFieldExpression>
 			</textField>
 			<subreport>
-				<reportElement x="1" y="625" width="555" height="71" uuid="38c51247-50e4-4e54-b32b-02ae5dee1e66">
+				<reportElement x="0" y="625" width="555" height="71" uuid="38c51247-50e4-4e54-b32b-02ae5dee1e66">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<parametersMapExpression><![CDATA[$P{REPORT_PARAMETERS_MAP}]]></parametersMapExpression>
 				<subreportExpression><![CDATA["DadosPremio.jasper"]]></subreportExpression>
 			</subreport>
 			<line>
-				<reportElement x="-1" y="519" width="555" height="1" forecolor="#D9D9D9" uuid="93c52934-32aa-4d1a-a038-440b1ce5347b">
+				<reportElement x="-1" y="521" width="555" height="1" forecolor="#D9D9D9" uuid="93c52934-32aa-4d1a-a038-440b1ce5347b">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 				</reportElement>
 				<graphicElement>
@@ -255,7 +270,7 @@
 				</reportElement>
 			</rectangle>
 			<rectangle>
-				<reportElement x="0" y="390" width="555" height="13" forecolor="#F0F2F8" backcolor="#F0F2F8" uuid="5ea45420-35c0-4430-9f14-71bad705f6df">
+				<reportElement x="0" y="397" width="555" height="13" forecolor="#F0F2F8" backcolor="#F0F2F8" uuid="5ea45420-35c0-4430-9f14-71bad705f6df">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<graphicElement>
@@ -263,7 +278,7 @@
 				</graphicElement>
 			</rectangle>
 			<staticText>
-				<reportElement x="6" y="390" width="64" height="13" forecolor="#687384" backcolor="rgba(201, 114, 113, 0.0)" uuid="5dacc23a-55c0-4554-8508-2a3a22be7f23"/>
+				<reportElement x="6" y="397" width="64" height="13" forecolor="#687384" backcolor="rgba(201, 114, 113, 0.0)" uuid="5dacc23a-55c0-4554-8508-2a3a22be7f23"/>
 				<textElement verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
@@ -274,15 +289,6 @@
 	<pageFooter>
 		<band height="25" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
-			<staticText>
-				<reportElement x="0" y="12" width="220" height="13" uuid="9e0e466f-8668-478e-8d07-90e65e9e6414">
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert Medium" size="8"/>
-				</textElement>
-				<text><![CDATA[20221213.11.0011C.0000A.0000G]]></text>
-			</staticText>
 			<staticText>
 				<reportElement x="449" y="0" width="41" height="13" uuid="ae71ca1c-1ddc-4b92-a87f-f5e212b9f140"/>
 				<textElement textAlignment="Right" verticalAlignment="Middle">
@@ -313,6 +319,18 @@
 				</textElement>
 				<text><![CDATA[Uso interno da Cia]]></text>
 			</staticText>
+			<textField>
+				<reportElement x="0" y="12" width="220" height="13" uuid="b31ca01a-3104-489a-b0d6-7ef41c0f924e">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Porto Roobert Medium" size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{validadeCotacao}]]></textFieldExpression>
+			</textField>
 		</band>
 	</pageFooter>
 </jasperReport>

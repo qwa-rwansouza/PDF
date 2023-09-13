@@ -8,7 +8,7 @@
 		</queryString>
 	</subDataset>
 	<queryString language="JSON">
-		<![CDATA[coberturaServicos]]>
+		<![CDATA[coberturaCasco]]>
 	</queryString>
 	<field name="franquia" class="java.lang.String">
 		<property name="net.sf.jasperreports.json.field.expression" value="franquia"/>
@@ -80,9 +80,9 @@
 			</staticText>
 			<staticText>
 				<reportElement x="480" y="16" width="70" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="b3b0aec8-5aff-4b3d-acb9-d50db970716f">
-					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
 				</reportElement>
-				<textElement verticalAlignment="Middle">
+				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
 				<text><![CDATA[Valor do prêmio]]></text>
@@ -118,21 +118,22 @@
 				<textFieldExpression><![CDATA[$F{franquia}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="300" y="2" width="100" height="13" uuid="58c4f330-f0a8-4975-947c-b66bf579b0e6">
+				<reportElement x="300" y="2" width="120" height="13" uuid="58c4f330-f0a8-4975-947c-b66bf579b0e6">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<textElement textAlignment="Center" verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
-				<textFieldExpression><![CDATA[$F{percentualLMI}]]></textFieldExpression>
+				<textFieldExpression><![CDATA[$F{percentualLMI} + " da FIPE"]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="480" y="2" width="70" height="13" uuid="464831c9-de5d-48eb-a1e8-39cfdf4011d7">
+				<reportElement x="470" y="2" width="70" height="13" uuid="464831c9-de5d-48eb-a1e8-39cfdf4011d7">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
-				<textElement textAlignment="Center" verticalAlignment="Middle">
+				<textElement textAlignment="Right" verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{valorPremio}]]></textFieldExpression>

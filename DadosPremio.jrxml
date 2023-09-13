@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Created with Jaspersoft Studio version 6.20.5.final using JasperReports Library version 6.20.5-3efcf2e67f959db3888d79f73dde2dbd7acb4f8e  -->
-<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DadosPremio" pageWidth="555" pageHeight="65" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="05f18018-3dd3-4bf0-baef-a717a134fba5">
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="DadosPremio" pageWidth="555" pageHeight="72" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="05f18018-3dd3-4bf0-baef-a717a134fba5">
 	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter (5)"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
 	<queryString language="JSON">
 		<![CDATA[dadosPremio]]>
 	</queryString>
@@ -21,7 +30,7 @@
 		<band splitType="Stretch"/>
 	</background>
 	<detail>
-		<band height="65" splitType="Stretch">
+		<band height="72" splitType="Stretch">
 			<property name="com.jaspersoft.studio.unit.height" value="px"/>
 			<rectangle>
 				<reportElement x="0" y="-1" width="555" height="36" forecolor="#F0F2F8" backcolor="#F0F2F8" uuid="a682f66c-d1eb-4202-9b69-f7dacaf8d43b"/>
@@ -46,15 +55,6 @@
 				<text><![CDATA[IOF:]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="410" y="14" width="55" height="12" uuid="f3abee7b-b05c-4896-9136-d29acae34e6a">
-					<property name="com.jaspersoft.studio.unit.height" value="px"/>
-				</reportElement>
-				<textElement verticalAlignment="Middle">
-					<font fontName="Porto Roobert Medium&#xD;&#xA;" size="8"/>
-				</textElement>
-				<text><![CDATA[Prêmio total: ]]></text>
-			</staticText>
-			<staticText>
 				<reportElement x="3" y="40" width="440" height="20" forecolor="#666262" uuid="0d6564f5-6f47-457f-8020-b4b3205cccbd"/>
 				<textElement>
 					<font fontName="Porto Roobert Medium" size="7"/>
@@ -63,13 +63,13 @@
 O registro do produto é automático e não representa aprovação ou recomendação por parte da Susep.]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="458" y="9" width="80" height="26" uuid="ec945aed-f4da-4b03-a1e8-5f71d2386a35">
+				<reportElement x="470" y="6" width="80" height="26" uuid="ec945aed-f4da-4b03-a1e8-5f71d2386a35">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 				</reportElement>
-				<textElement>
+				<textElement verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="14" isBold="true"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{premioTotal}]]></textFieldExpression>
@@ -98,6 +98,28 @@ O registro do produto é automático e não representa aprovação ou recomenda�
 				</textElement>
 				<textFieldExpression><![CDATA[$F{iof}]]></textFieldExpression>
 			</textField>
+			<staticText>
+				<reportElement x="422" y="14" width="55" height="12" uuid="55e25f0c-6219-4069-af38-a6b09905519d">
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+				</reportElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Porto Roobert Medium" size="8"/>
+				</textElement>
+				<text><![CDATA[Prêmio total: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="3" y="62" width="411" height="10" forecolor="#666262" uuid="9180fed2-4e01-4a91-b331-01d35ac29f3f">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement>
+					<font fontName="Porto Roobert Medium" size="7"/>
+				</textElement>
+				<text><![CDATA[Está folha é uma versão resumidado orçamento, para mais detalhes das informações solicite o formato completo.]]></text>
+			</staticText>
 		</band>
 	</detail>
 </jasperReport>

@@ -79,6 +79,10 @@
 		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.sucursalSeguro"/>
 		<fieldDescription><![CDATA[dadosGerais.sucursalSeguro]]></fieldDescription>
 	</field>
+	<field name="isCondutorPrincipal" class="java.lang.String">
+		<property name="net.sf.jasperreports.json.field.expression" value="dadosGerais.isCondutorPrincipal"/>
+		<fieldDescription><![CDATA[dadosGerais.isCondutorPrincipal]]></fieldDescription>
+	</field>
 	<background>
 		<band splitType="Stretch"/>
 	</background>
@@ -101,7 +105,7 @@
 				<text><![CDATA[DADOS GERAIS]]></text>
 			</staticText>
 			<rectangle>
-				<reportElement x="0" y="13" width="353" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="2064968f-a9aa-4ebb-b1e2-f1b2b0014f72">
+				<reportElement x="0" y="13" width="305" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="2064968f-a9aa-4ebb-b1e2-f1b2b0014f72">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 				</reportElement>
 				<graphicElement>
@@ -116,13 +120,13 @@
 				<text><![CDATA[Segurado(a)]]></text>
 			</staticText>
 			<rectangle>
-				<reportElement x="353" y="13" width="107" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="192227ec-c94d-467d-9382-d28463c24902"/>
+				<reportElement x="305" y="13" width="55" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="192227ec-c94d-467d-9382-d28463c24902"/>
 				<graphicElement>
 					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
 				</graphicElement>
 			</rectangle>
 			<staticText>
-				<reportElement x="359" y="13" width="45" height="10" uuid="1bc20514-73f8-43d8-bfdc-5aaa0e07e663"/>
+				<reportElement x="311" y="13" width="45" height="10" uuid="1bc20514-73f8-43d8-bfdc-5aaa0e07e663"/>
 				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
 					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
 					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
@@ -135,13 +139,15 @@
 				<text><![CDATA[Nascimento]]></text>
 			</staticText>
 			<rectangle>
-				<reportElement x="460" y="13" width="95" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="a44fb5a2-b4db-460f-8a8a-4379f5f697e2"/>
+				<reportElement x="360" y="13" width="66" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="a44fb5a2-b4db-460f-8a8a-4379f5f697e2">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
 				<graphicElement>
 					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
 				</graphicElement>
 			</rectangle>
 			<staticText>
-				<reportElement x="466" y="13" width="20" height="10" uuid="0acba0d6-538b-452c-a980-ade830a5a3d6"/>
+				<reportElement x="366" y="13" width="20" height="10" uuid="0acba0d6-538b-452c-a980-ade830a5a3d6"/>
 				<textElement verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
@@ -308,7 +314,7 @@
 				<text><![CDATA[Origem do Bônus]]></text>
 			</staticText>
 			<staticText>
-				<reportElement x="2" y="89" width="554" height="9" uuid="8608fae2-a1d6-4e7f-b7bd-5fc8e6add3eb"/>
+				<reportElement x="2" y="84" width="554" height="9" uuid="8608fae2-a1d6-4e7f-b7bd-5fc8e6add3eb"/>
 				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="7" isBold="false"/>
 				</textElement>
@@ -360,7 +366,7 @@
 				<textFieldExpression><![CDATA[$F{emailCorretora}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="359" y="23" width="89" height="13" uuid="66b428ab-de31-4577-8fb0-4a4fb2bce196">
+				<reportElement x="311" y="23" width="49" height="13" uuid="66b428ab-de31-4577-8fb0-4a4fb2bce196">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -371,7 +377,7 @@
 				<textFieldExpression><![CDATA[$F{dataNascimentoProponente}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="466" y="23" width="83" height="13" uuid="009fe623-b0a7-4855-b9c0-11f4620b6181">
+				<reportElement x="366" y="23" width="53" height="13" uuid="009fe623-b0a7-4855-b9c0-11f4620b6181">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
@@ -452,6 +458,40 @@
 					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[($F{origemBonus} == null ) ? "-" : $F{origemBonus}]]></textFieldExpression>
+			</textField>
+			<rectangle>
+				<reportElement x="426" y="13" width="129" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="b49198fe-6c56-4d9e-804b-3e3ad595ee4c">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
+				</graphicElement>
+			</rectangle>
+			<staticText>
+				<reportElement x="432" y="13" width="123" height="10" uuid="0f384dc8-6c61-4884-ab4c-5f1dc30cc1be">
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+				</reportElement>
+				<box topPadding="0" leftPadding="0" bottomPadding="0" rightPadding="0">
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Segurado é o principal condutor]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="432" y="23" width="53" height="13" uuid="70fcf379-4880-4ff5-bbdb-6bdc50fc5967">
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="com.jaspersoft.studio.unit.x" value="px"/>
+					<property name="com.jaspersoft.studio.unit.y" value="px"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Porto Roobert Medium" size="7"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{isCondutorPrincipal}.equals( "TRUE") ? "Sim": "Não"]]></textFieldExpression>
 			</textField>
 		</band>
 	</detail>

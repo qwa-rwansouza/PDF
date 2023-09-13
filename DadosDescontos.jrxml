@@ -33,7 +33,7 @@
 	<columnHeader>
 		<band height="16">
 			<staticText>
-				<reportElement x="10" y="1" width="40" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="d451eb22-ca7c-46d1-9391-13347f85e2fe"/>
+				<reportElement x="9" y="1" width="40" height="13" forecolor="#000000" backcolor="rgba(201, 114, 113, 0.0)" uuid="d451eb22-ca7c-46d1-9391-13347f85e2fe"/>
 				<textElement verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>

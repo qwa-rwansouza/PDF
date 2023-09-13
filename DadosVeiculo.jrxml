@@ -95,7 +95,7 @@
 				<text><![CDATA[Placa]]></text>
 			</staticText>
 			<rectangle>
-				<reportElement x="50" y="13" width="80" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="192227ec-c94d-467d-9382-d28463c24902"/>
+				<reportElement x="50" y="13" width="84" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="192227ec-c94d-467d-9382-d28463c24902"/>
 				<graphicElement>
 					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
 				</graphicElement>
@@ -114,13 +114,13 @@
 				<text><![CDATA[Chassi]]></text>
 			</staticText>
 			<rectangle>
-				<reportElement x="130" y="13" width="200" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="a44fb5a2-b4db-460f-8a8a-4379f5f697e2"/>
+				<reportElement x="134" y="13" width="196" height="23" backcolor="rgba(255, 255, 255, 0.0)" uuid="a44fb5a2-b4db-460f-8a8a-4379f5f697e2"/>
 				<graphicElement>
 					<pen lineWidth="0.5" lineColor="#C0C3D0"/>
 				</graphicElement>
 			</rectangle>
 			<staticText>
-				<reportElement x="134" y="13" width="35" height="10" uuid="0acba0d6-538b-452c-a980-ade830a5a3d6"/>
+				<reportElement x="139" y="13" width="35" height="10" uuid="0acba0d6-538b-452c-a980-ade830a5a3d6"/>
 				<textElement verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="7" isBold="true"/>
 				</textElement>
@@ -192,85 +192,85 @@
 				<text><![CDATA[CEP de Pernoite]]></text>
 			</staticText>
 			<textField>
-				<reportElement x="6" y="23" width="34" height="13" uuid="bf3170a2-ac6e-45cf-9613-82be9d4326f9">
+				<reportElement x="6" y="22" width="34" height="13" uuid="bf3170a2-ac6e-45cf-9613-82be9d4326f9">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
-				<textElement>
+				<textElement verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{placaVeiculo}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="55" y="23" width="75" height="13" uuid="00c06b92-533c-40ad-b77a-9a28ad559a67">
+				<reportElement x="55" y="22" width="75" height="13" uuid="00c06b92-533c-40ad-b77a-9a28ad559a67">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
-				<textElement>
+				<textElement verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{chassiVeiculo}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="134" y="23" width="196" height="13" uuid="48b4db25-9681-4689-8184-40cae179ff1f">
+				<reportElement x="139" y="22" width="196" height="13" uuid="48b4db25-9681-4689-8184-40cae179ff1f">
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
-				<textElement>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{codigoVeiculo} + " - " + $F{modeloVeiculo}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="336" y="23" width="64" height="13" uuid="966948c1-70e9-4ba2-846c-ffd0725d58f2">
+				<reportElement x="336" y="22" width="64" height="13" uuid="966948c1-70e9-4ba2-846c-ffd0725d58f2">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
-				<textElement>
+				<textElement verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{anoFabricacaoVeiculo} + " / " + $F{anoModeloVeiculo}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="436" y="23" width="24" height="13" uuid="a3c061d3-a847-4f56-b321-f2e5cda24258">
+				<reportElement x="436" y="21" width="24" height="13" uuid="a3c061d3-a847-4f56-b321-f2e5cda24258">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
-				<textElement>
+				<textElement verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{veiculoKmFlag}.equals("S") ? "Sim" : "Não"]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="496" y="23" width="59" height="13" uuid="cf851d10-b93f-4d2d-9452-7018fbaaf762">
+				<reportElement x="496" y="21" width="59" height="13" uuid="cf851d10-b93f-4d2d-9452-7018fbaaf762">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
-				<textElement>
+				<textElement verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{usoVeiculo}]]></textFieldExpression>
 			</textField>
 			<textField>
-				<reportElement x="436" y="46" width="44" height="13" uuid="edf88ef8-6a82-4aee-af6a-44b307459872">
+				<reportElement x="436" y="45" width="44" height="13" uuid="edf88ef8-6a82-4aee-af6a-44b307459872">
 					<property name="com.jaspersoft.studio.unit.width" value="px"/>
 					<property name="com.jaspersoft.studio.unit.height" value="px"/>
 					<property name="com.jaspersoft.studio.unit.x" value="px"/>
 					<property name="com.jaspersoft.studio.unit.y" value="px"/>
 				</reportElement>
-				<textElement>
+				<textElement verticalAlignment="Middle">
 					<font fontName="Porto Roobert Medium" size="7"/>
 				</textElement>
 				<textFieldExpression><![CDATA[$F{cepPernoiteVeiculo}]]></textFieldExpression>
